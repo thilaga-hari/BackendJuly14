@@ -13,5 +13,9 @@ public class Client
         stack.push(30);
 
         System.out.println(stack.size());
+
+        Util.doSomeUtility(stack);
+
+        System.out.println(Stack.x);
     }
 }
